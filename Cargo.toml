@@ -1,0 +1,22 @@
+[package]
+name = "ngon"
+version = "0.1.0"
+edition = "2021"
+description = "Generate and render n-sided polygons using exponentially swept connectors."
+authors = ["Ethan Pessino <evpessino@gmail.com>", "Andrea Pessino <andrea.pessino@gmail.com>"]
+categories = ["math", "graphics", "2d"]
+
+keywords = ["polygon", "n-sided", "2d", "graphics"]
+
+license  = "MIT"
+repository = "https://github.com/epessino/ngon"
+readme = "readme.md"
+
+[dependencies]
+cgmath = "0.18.0"
+num-complex = "0.4.6"
+
+[dev-dependencies]
+rand = "0.8.5"
+modulator = "0.4.0"
+piston_window = "0.132.0"
