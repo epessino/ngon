@@ -1,5 +1,5 @@
 //!
-//! # $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+//! # Creates a window in piston and converts into resolution based coordinates
 //!
 
 mod color;
