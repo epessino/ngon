@@ -1,5 +1,5 @@
 //!
-//! # $$$$$$$$$$$$$$$$$
+//! # Handles and modifies the draw state for each frame
 //!
 
 use crate::color::{as_vec4, col_lerp, color_from_sargb};
